@@ -41,14 +41,14 @@ subprocess.call([cmd, arg1, arg2], shell=True)
 #os.makedirs("G:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "_PLUS")
 
 # run r script to get tables and write to csv
-command = "C:\\Program Files\\R\\R-4.0.5\\bin\\Rscript.exe"
-path2script = "C:\\Users\\jdmac\\PycharmProjects\\ojd-eviction-scraping-daily-PLUS\\data_cleaning_PLUS.R"
+command = "C:\\Program Files\\R\\R-4.1.2\\bin\\Rscript.exe"
+path2script = "C:\\Users\\james\\OneDrive\\Documents\\GitHub\\ojd-eviction-scraping-daily-PLUS\\data_cleaning_PLUS.R"
 
 subprocess.call([command, path2script], shell=True)
 
 # get file extenstions
-cmd = "C:\\trid_w32\\trid.exe"
-path2 = "G:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "\\Court_Documents_" + today.strftime("%m_%d_%Y") + "\\*"
+cmd = "C:\\Users\\james\\OneDrive\\Documents\\GitHub\\ojd-eviction-scraping-daily-PLUS\\trid_w32trid.exe"
+path2 = "C:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "\\Court_Documents_" + today.strftime("%m_%d_%Y") + "\\*"
 arg1 = "-ae"
 
 subprocess.call([cmd, path2, arg1], shell=True)

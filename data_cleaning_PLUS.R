@@ -104,7 +104,7 @@ missingCases <- case_overviews_flat %>%
   anti_join(OLCData, by = "case_code")
 
 
-setwd(paste("G:/Shared drives/DAILY_SCRAPE_OJD/Daily_Cases_", today, sep = ""))
+setwd(paste("C:/Shared drives/DAILY_SCRAPE_OJD/Daily_Cases_", today, sep = ""))
 write.csv(missingCases, "case_overviews_flat.csv")
 
 # write.csv(case_overviews, "case_overviews.csv")
@@ -136,7 +136,7 @@ getFiles <- function() {
 
 files <- getFiles()
 
-setwd(paste("G:/Shared drives/DAILY_SCRAPE_OJD/Daily_Cases_", today, "/Court_Documents_", today, sep = ""))
+setwd(paste("C:/Shared drives/DAILY_SCRAPE_OJD/Daily_Cases_", today, "/Court_Documents_", today, sep = ""))
 
 filteredFiles <- files %>%
   filter(case_code %in% missingCases$case_code)

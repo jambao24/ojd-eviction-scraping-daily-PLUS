@@ -9,7 +9,7 @@ today = date.today() # - timedelta(days=1)
 
 # delete directory
 
-dir_path = "G:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") # + "_PLUS"
+dir_path = "C:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") # + "_PLUS"
 
 try:
     shutil.rmtree(dir_path)

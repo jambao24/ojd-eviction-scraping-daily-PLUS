@@ -88,7 +88,7 @@ ITEM_PIPELINES = {
 }
 
 # FILES_STORE = "G:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "\\Court_Documents_" + today.strftime("%m_%d_%Y")
-FILES_STORE = "G:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "\\Court_Documents_" + today.strftime("%m_%d_%Y")
+FILES_STORE = "C:\\Shared drives\\DAILY_SCRAPE_OJD\\Daily_Cases_" + today.strftime("%m_%d_%Y") + "\\Court_Documents_" + today.strftime("%m_%d_%Y")
 
 
 

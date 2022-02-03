@@ -93,7 +93,7 @@ class OJDEvictions(scrapy.Spider):
 		'SearchBy': '0',
 		'ExactName': 'on',
 		'CaseSearchMode': 'CaseNumber',
-		'CaseSearchValue': '21LT*', # change this for a different case search
+		'CaseSearchValue': '22LT*', # change this for a different case search
 		'CitationSearchValue': '',
 		'CourtCaseSearchValue': '',
 		'PartySearchMode': 'Name',
